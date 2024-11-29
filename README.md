@@ -24,7 +24,7 @@ Before you begin, ensure you have the following installed:
    ```
 3. Build the application
     ```shell
-        go mod tidy
+    go mod tidy
     ```
 
 # Testing
@@ -42,9 +42,15 @@ Please enter the depth to crawl:
 
 Sample response
 ```shell
-URL: https://theuselessweb.com/ | Title: The Useless Web | Content: The Useless Web TAKE ME TO A USELESS WEBSITE → PLEASE ← Read About The Sites The Useless Web... 
-
-URL: https://theuselessweb.com//sites | Title: The Useless Web Sites | Content: The Useless Web Sites The Useless Sites of the Useless Web → Discover More Sites Checkbox Race By 
-
-URL: http://tholman.com | Title: Tim Holman - Engineer &  Maker | Content: Tim Holman - Engineer &  Maker Tim Holman Tim Holman I am a veteran front-end engineer who thrives o
+URL: https://theuselessweb.com/ 
+Title: The Useless Web 
+Content: The Useless Web TAKE ME TO A USELESS WEBSITE → PLEASE ← Read About The Sites The Useless Web... 
+ 
+URL: https://theuselessweb.com//sites 
+Title: The Useless Web Sites 
+Content: The Useless Web Sites The Useless Sites of the Useless Web → Discover More Sites Checkbox Race By 
+ 
+URL: http://tholman.com 
+Title: Tim Holman - Engineer &  Maker 
+Content: Tim Holman - Engineer &  Maker Tim Holman Tim Holman I am a veteran front-end engineer who thrives o
 ```
