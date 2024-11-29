@@ -20,16 +20,18 @@ Before you begin, ensure you have the following installed:
    ```
 2. Install all the dependencies
    ```shell
-   go build -o web-crawler
+    go mod tidy
    ```
 3. Build the application
     ```shell
-    go mod tidy
+   go build -o crawler
     ```
 
 # Testing
 ```shell
-web-crawler
+# Run the appliction which is build using above give steps
+
+./crawler
 
 Hello, Welcome to web crawler
 Please enter a valid URL
